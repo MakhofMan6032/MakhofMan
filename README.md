@@ -177,19 +177,19 @@ MeGa-shield has several commands that are only usable at certain ranks.
 
 | Command | Groups? | SuperGroups? |
 |:--------|:--------|:-------------|
-| <html>&#91;</html>#!/]open|close links | Y | Y |
-| <html>&#91;</html>#!/]open|close flood | Y | Y |
-| <html>&#91;</html>#!/]open|close [1-200] | Y | Y |
-| <html>&#91;</html>#!/]open|close bots | Y | Y |
-| <html>&#91;</html>#!/]open|close spam | Y | Y |
-| <html>&#91;</html>#!/]open|close arabic | Y | Y |
-| <html>&#91;</html>#!/]open|close member | Y | Y |
-| <html>&#91;</html>#!/]open|close leave | Y | Y |
-| <html>&#91;</html>#!/]open|close RTL | Y | Y |
-| <html>&#91;</html>#!/]open|close tgservice | N | Y |
-| <html>&#91;</html>#!/]open|close sticker | Y| Y |
+| <html>&#91;</html>#!/]open & close|links | Y | Y |
+| <html>&#91;</html>#!/]open & close|flood | Y | Y |
+| <html>&#91;</html>#!/]open & close|[1-200] | Y | Y |
+| <html>&#91;</html>#!/]open & close|bots | Y | Y |
+| <html>&#91;</html>#!/]open & close|spam | Y | Y |
+| <html>&#91;</html>#!/]open & close|arabic | Y | Y |
+| <html>&#91;</html>#!/]open & close|member | Y | Y |
+| <html>&#91;</html>#!/]open & close|leave | Y | Y |
+| <html>&#91;</html>#!/]open & close|RTL | Y | Y |
+| <html>&#91;</html>#!/]open & close|tgservice | N | Y |
+| <html>&#91;</html>#!/]open & close|sticker | Y| Y |
 | <html>&#91;</html>#!/]public [yes<html>&#124;</html>no] | Y | Y |
-| <html>&#91;</html>#!/]open|close strict | N | Y |
+| <html>&#91;</html>#!/]open & close|strict | N | Y |
 
 /lock [setting] and /unlock [setting]: sets allowed actions and content for groups/SuperGroups
 	***/lock strict*** in a supergroup, if strict is locked users will be kicked for violations of settings or mutes
