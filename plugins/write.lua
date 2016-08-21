@@ -1,6 +1,6 @@
 local function run(msg, matches)
 	if #matches < 2 then
-		return "زیبا نویسی متن توسط @MakhofMan کپی بدون ذکر منبع حرام میباشد:|"
+		return "زیبا نویسی متن توسط @agent_sudoکپی بدون ذکر منبع حرام میباشد:|"
 	end
 	if string.len(matches[2]) > 20 then
 		return "فقط  ۲۰ حرف مجاز است! @"..msg.from.username
@@ -186,7 +186,7 @@ local function run(msg, matches)
 		a=a+1
 		result_text = result_text..a.."- "..result[a].."\n\n"
 	end
-	return result_text.."Creator: @agent_spartacus !"
+	return result_text.."editor: @agent_sudo !"
 end
 
 return {
